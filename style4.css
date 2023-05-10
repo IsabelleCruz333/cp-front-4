@@ -11,23 +11,13 @@ body {
     height: 0;
 }
 
-#box1 {
-    background-color:#61401D;
-    width: 40%;
-    padding:0 20px 20px 20px;
-    border: 0px solid;
-    -webkit-border-radius: 10px 20px;
-    margin: 0px
-}
-
-
 #menu {
     width: 70%;
     height: 50px;
     text-align: center;
     display: flex;
     background-color: #61401D;
-    -webkit-border-radius: 10px 20px
+    border-radius: 10px 20px
 }
 
 #menu ul li {
@@ -49,6 +39,19 @@ body {
     border-radius: 5%;
 }
 
+#box1 {
+    background-color:#61401D;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    border: 0px solid;
+    border-radius: 10px 20px;
+    margin: 70px;
+    display: inline-block;
+    justify-content: center
+}
+
+
 h1 {
     font-family: 'Bebas Neue', cursive;  
     text-align: center;
@@ -57,6 +60,19 @@ h1 {
 }
 
 p {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+
+#formulario {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 20px;
